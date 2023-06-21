@@ -16,5 +16,12 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/storybook-system-design/'
+    }
+
+    return config
+  }
 };
 export default config;
