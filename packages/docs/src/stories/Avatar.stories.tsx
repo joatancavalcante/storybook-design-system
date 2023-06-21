@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@testorganization/react'
+import { Avatar, AvatarProps } from '@joatan.dev/react'
 
 export default {
   title: 'Data display/Avatar',

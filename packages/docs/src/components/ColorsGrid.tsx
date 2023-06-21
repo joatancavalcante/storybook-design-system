@@ -1,4 +1,4 @@
-import { colors } from '@testorganization/tokens'
+import { colors } from '@joatan.dev/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@testorganization/react'
+import { Box, Text, TextArea, TextAreaProps } from '@joatan.dev/react'
 
 export default {
   title: 'Form/Text Area',

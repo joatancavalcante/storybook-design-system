@@ -1,5 +1,5 @@
 {
-  "name": "@testorganization/docs",
+  "name": "@joatan.dev/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,8 +20,8 @@
     "@storybook/react-vite": "^7.0.22",
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.14-next.2",
-    "@testorganization/react": "*",
-    "@testorganization/tokens": "*",
+    "@joatan.dev/react": "*",
+    "@joatan.dev/tokens": "*",
     "@vitejs/plugin-react": "^4.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

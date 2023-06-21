@@ -1,5 +1,5 @@
 {
-  "name": "@testorganization/tokens",
+  "name": "@joatan.dev/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@testorganization/ts-config": "*",
+    "@joatan.dev/ts-config": "*",
     "tsup": "^7.0.0",
     "typescript": "^5.1.3"
   }
