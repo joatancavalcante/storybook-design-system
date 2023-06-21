@@ -1,5 +1,11 @@
 # @joatan.dev/tokens
 
+## 1.6.0
+
+### Minor Changes
+
+- Remove test color
+
 ## 1.5.0
 
 ### Minor Changes
