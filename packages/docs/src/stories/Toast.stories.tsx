@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from '@storybook/react'
+import type { StoryObj, Meta, ComponentStory } from '@storybook/react'
 import {
   Box,
   Button,
@@ -6,6 +6,8 @@ import {
   ToastProps,
 } from '@joatan.dev/react'
 import { useEffect, useRef, useState } from 'react'
+import { userEvent, waitFor, within } from '@storybook/testing-library'
+import { expect } from '@storybook/jest'
 
 const DemoToast = (props: ToastProps) => {
   const [isOpen, setOpen] = useState(false)
@@ -44,3 +46,19 @@ export default {
 } as Meta<ToastProps>
 
 export const Primary: StoryObj<ToastProps> = {}
+
+const Template: ComponentStory<typeof DemoToast> = (args) => (
+    <DemoToast {...args} />
+  )
+  
+  export const basicTest = Template.bind({})
+  
+  basicTest.play = async ({ canvasElement }) => {
+    const canvas = within(canvasElement)
+  
+    userEvent.click(canvas.getByRole('button'))
+  
+    await waitFor(() =>
+      expect(canvas.getAllByText('Agendamento realizado')).toBeTruthy(),
+    )
+  }
