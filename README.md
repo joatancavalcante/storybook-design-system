@@ -1,6 +1,6 @@
-## About this project
+## About
 
-This is a system design project that uses:
+This is a design system project that uses:
 - Storybook
 - Changesets
 - Turborepo
