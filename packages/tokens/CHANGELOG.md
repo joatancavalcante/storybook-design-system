@@ -1,5 +1,12 @@
 # @joatan.dev/tokens
 
+## 1.7.0
+
+### Minor Changes
+
+- 61a99a4: Adding color
+- Remove whitewhite color
+
 ## 1.6.0
 
 ### Minor Changes
