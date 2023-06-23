@@ -18,7 +18,7 @@ const config = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/storybook-system-design/'
+      config.base = '/storybook-design-system/'
     }
 
     return config

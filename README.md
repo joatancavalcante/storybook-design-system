@@ -12,7 +12,7 @@ This is a design system project that uses:
 - Radix UI
 
 
-See more at https://joatancavalcante.github.io/storybook-system-design/?path=/docs/home--docs.
+See more at https://joatancavalcante.github.io/storybook-design-system/?path=/docs/home--docs.
 
 
 <img width="1423" alt="image" src="https://github.com/joatancavalcante/storybook-system-design/assets/7294833/98c18939-238a-4a25-929c-7e41f481df7b">
